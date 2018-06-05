@@ -1,0 +1,27 @@
+{
+  "name": "Travelbag2",
+  "version": "1.0.0",
+  "description": "A checklist to ensure you've bagged everything you need when you travel.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmithgatech/Travelbag2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msmithgatech/Travelbag2/issues"
+  },
+  "homepage": "https://github.com/msmithgatech/Travelbag2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.10"
+  }
+}
