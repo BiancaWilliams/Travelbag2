@@ -1,4 +1,4 @@
-var db = require("../config/connection.js");
+
 module.exports = function(sequelize, DataTypes) {
     var Checklist = sequelize.define("Checklist", {
         journey: {

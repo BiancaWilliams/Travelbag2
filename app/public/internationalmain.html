@@ -198,25 +198,36 @@
 					<br>
 					</form> 					
 				</div>
-				
 <!--Fifth Column Checklist-->
 			<div class="col-md-12">
 				<div class="section-header">
 					<h5 class="title">VISA/IMMINUZATIONS/EXIT TAX</h5>
 				<form action="/action_page.php">
-					<label><input type="checkbox">Have Visa<br></label>
-					<label><input type="checkbox">Visa Needed<br></label>
-					<label><input type="checkbox"> No Visa needed<br></label>
-					<label><input type="checkbox">Have Imminuzations<br></label>
-					<label><input type="checkbox"> Imminuzations needed<br></label>
-					<label><input type="checkbox"> No Imminuzations needed<br></label>
-					<label><input type="checkbox"> Exit Tax required<br></label>
-					<label><input type="checkbox"> No Exit Tax required<br></label>
+					<label><input type="checkbox" name="sel" value="Have Visa">Have Visa<br></label>
+					<label><input type="checkbox" name="sel" value="Visa Needed">Visa Needed<br></label>
+					<label><input type="checkbox" name="sel" value="No Visa needed"> No Visa needed<br></label>
+					<label><input type="checkbox" name="sel" value="Have Imminuzations">Have Imminuzations<br></label>
+					<label><input type="checkbox" name="sel" value="Imminuzations needed">Imminuzations needed<br></label>
+					<label><input type="checkbox" name="sel" value="No Imminuzations needed"> No Imminuzations needed<br></label>
+					<label><input type="checkbox" name="sel" value="Exit Tax required"> Exit Tax required<br></label>
+					<label><input type="checkbox" name="sel" value="No Exit Tax required"> No Exit Tax required<br></label>
 				<br>
 				<br> 
-				</for
+
+		
+				<div class="col-md-12">
+						<h2>Suggested Basic Packing List</h2>
+						<li>Arrival instructions from IES Abroad</li>
+						<li>Prescription medications in original containers</li>
+						<li>Change of clothing and in case luggage is lost</li>
+						<li>Toothbrush, Toothpaste, Dental floss, Soap, Deodorant</li>
+						<li>Shampoo/conditioner, Brush/comb,Hairstyling appliance</li>
+						<li>Electrical Items (hair dryers, curling irons, electric shavers, etc.)</li>
+					</div>
+	
+
 			</checkbox-list>
-			</div>
+			
 
 			</div>
 			<!-- /Row -->
@@ -230,8 +241,10 @@
 	<!--SUBMIT-->
 	
             <div class="section-header text-center">
-                <button type="submit">
-                    Submit</button>
+					<p>
+						<input type="button" onclick='printChecked()' value="Submit"/>
+					</p>
+				
                     <button type="delete">Delete</button>
                     <button type="save">Save</button>
             </div>
